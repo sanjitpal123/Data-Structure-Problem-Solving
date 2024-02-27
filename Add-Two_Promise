@@ -1,0 +1,14 @@
+/**
+ * @param {Promise} promise1
+ * @param {Promise} promise2
+ * @return {Promise}
+ */
+var addTwoPromises = async function(promise1, promise2) {
+    const result= Promise.all([promise1,promise2])
+    .then((value)=>{
+        return value[0]+value[1];
+    });
+    return result;
+    
+    
+};
