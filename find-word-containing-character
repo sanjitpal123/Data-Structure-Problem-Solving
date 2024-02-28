@@ -1,0 +1,21 @@
+/**
+ * @param {string[]} words
+ * @param {character} x
+ * @return {number[]}
+ */
+var findWordsContaining = function(words, x) {
+    let index=[];
+    for(let i=0;i<words.length;i++)
+    {
+        let sp=words[i].split('');
+        for(let j=0;j<sp.length;j++)
+        {
+            if(sp[j]===x)
+            {
+                index.push(i);
+                break;
+            }
+        }
+    }
+    return index;
+};
