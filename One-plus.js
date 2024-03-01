@@ -1,5 +1,5 @@
 //66. Plus One
-/**
+/*
  * @param {number[]} digits
  * @return {number[]}
  */
