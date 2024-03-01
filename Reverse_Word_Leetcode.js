@@ -1,6 +1,6 @@
 //151. Reverse Words in a String / you go to leetcode and search this question and solve it
 /**
- * @param {string} s
+ * @param {string} 
  * @return {string}
  */
 var reverseWords = function(s) {
