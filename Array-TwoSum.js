@@ -1,6 +1,6 @@
 /**
  * @param {number[]} nums
- * @param {number} target
+ * @param {number} Target
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
