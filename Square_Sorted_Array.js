@@ -1,7 +1,7 @@
 //977. Squares of a Sorted Array
 
 /**
- * @param {number[]} nums
+  @param {number[]} nums
  * @return {number[]}
  */
 var sortedSquares = function(nums) {
